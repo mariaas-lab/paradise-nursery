@@ -6,7 +6,7 @@ import CartPage from "./components/CartPage";
 
 export default function App() {
   return (
-    <Router>
+       <Router basename="/paradise-nursery">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/products" element={<ProductList />} />
